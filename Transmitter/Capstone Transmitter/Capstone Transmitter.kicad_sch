@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "c6281f45-9be9-4db0-bb6a-14da59dc6c3d")
 	(paper "A4")
+	(title_block
+		(title "Capstone Remote")
+		(date "2026-09-13")
+		(rev "1")
+		(company "UMass Lowell")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names
@@ -3282,6 +3288,76 @@
 		)
 		(uuid "b4d228fe-0273-401b-b0b9-48d860d72c4b")
 	)
+	(text "UART header"
+		(exclude_from_sim no)
+		(at 74.676 98.298 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "33283d19-6987-40f9-b9dd-182961764a5e")
+	)
+	(text "Battery holder and\nReverse Polarity Protection"
+		(exclude_from_sim no)
+		(at 38.862 117.856 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "3af36bb3-a940-4bd6-afca-017bc3de6125")
+	)
+	(text "3.3V Buck Boost Converter"
+		(exclude_from_sim no)
+		(at 127.508 77.216 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "4cf527d7-5437-4f03-b48d-7e5c2b99fbb1")
+	)
+	(text "Pull ups if using microswitch joystick"
+		(exclude_from_sim no)
+		(at 96.012 98.298 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "4e085e04-5674-4924-878c-d6eb45ebd050")
+	)
+	(text "Microcontroller and supporting components"
+		(exclude_from_sim no)
+		(at 221.742 102.362 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "665a27e7-eedd-49ac-8ccc-0667b7e42201")
+	)
+	(text "JTAG header"
+		(exclude_from_sim no)
+		(at 51.308 118.872 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "71ce8b48-99d5-426c-819d-a3a8e5a38ecb")
+	)
+	(text "Optional analog stick potentiometer connections"
+		(exclude_from_sim no)
+		(at 37.338 140.208 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "92ce3e97-a46d-4388-9850-beee8784b93e")
+	)
 	(junction
 		(at 49.53 59.69)
 		(diameter 0)
@@ -5018,7 +5094,7 @@
 				)
 			)
 		)
-		(property "Value" "+4.5V"
+		(property "Value" "VBAT"
 			(at 120.65 31.242 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8265,7 +8341,7 @@
 				)
 			)
 		)
-		(property "Value" "+4.5V"
+		(property "Value" "VBAT"
 			(at 26.67 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
