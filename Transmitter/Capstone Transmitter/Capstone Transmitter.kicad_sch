@@ -3241,8 +3241,8 @@
 		(uuid "3328a77f-681a-4714-8d36-aa77feb412fe")
 	)
 	(rectangle
-		(start 80.01 78.105)
-		(end 137.16 99.06)
+		(start 78.105 78.105)
+		(end 137.16 119.38)
 		(stroke
 			(width 0)
 			(type default)
@@ -3254,7 +3254,7 @@
 	)
 	(rectangle
 		(start 47.625 78.105)
-		(end 80.01 99.06)
+		(end 78.105 99.06)
 		(stroke
 			(width 0)
 			(type default)
@@ -3290,7 +3290,7 @@
 	)
 	(text "UART header"
 		(exclude_from_sim no)
-		(at 74.676 98.298 0)
+		(at 70.866 98.298 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -3318,9 +3318,9 @@
 		)
 		(uuid "4cf527d7-5437-4f03-b48d-7e5c2b99fbb1")
 	)
-	(text "Pull ups if using microswitch joystick"
+	(text "Pull ups"
 		(exclude_from_sim no)
-		(at 96.012 98.298 0)
+		(at 110.49 117.094 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -3357,6 +3357,12 @@
 			)
 		)
 		(uuid "92ce3e97-a46d-4388-9850-beee8784b93e")
+	)
+	(junction
+		(at 99.06 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0133b9ae-03b8-4257-8bab-1f4f37fcd26b")
 	)
 	(junction
 		(at 49.53 59.69)
@@ -3413,6 +3419,12 @@
 		(uuid "810e487a-a0bf-408c-9fe1-91494b0a2c79")
 	)
 	(junction
+		(at 119.38 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "884c8a07-6d44-43b1-be38-12345fba2a00")
+	)
+	(junction
 		(at 116.84 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3461,6 +3473,12 @@
 		(uuid "d7f32a70-fcc9-4d1a-8fd9-2bff274de472")
 	)
 	(junction
+		(at 99.06 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d92576d9-bf94-4a78-908a-707f7294bac2")
+	)
+	(junction
 		(at 157.48 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3489,6 +3507,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7b02103-da29-4ba4-9e52-84f260fb151d")
+	)
+	(junction
+		(at 119.38 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8fc3ba7-71f8-41d5-ba45-a43051c1187c")
 	)
 	(no_connect
 		(at 196.85 54.61)
@@ -3581,6 +3605,16 @@
 			(type default)
 		)
 		(uuid "0ec4f9c8-b3bc-4dcc-947b-9dc37fc0f220")
+	)
+	(wire
+		(pts
+			(xy 80.01 114.3) (xy 93.98 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10f19a85-d125-49e4-a3a1-e4645ea75065")
 	)
 	(wire
 		(pts
@@ -3764,6 +3798,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 97.79) (xy 119.38 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3de3022e-6029-4562-94d5-05a57314be74")
+	)
+	(wire
+		(pts
 			(xy 22.86 124.46) (xy 20.32 124.46)
 		)
 		(stroke
@@ -3771,6 +3815,16 @@
 			(type default)
 		)
 		(uuid "42edf511-ac80-4005-873a-82a003d88d93")
+	)
+	(wire
+		(pts
+			(xy 101.6 104.14) (xy 114.3 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43635861-b636-4d5b-8d6a-62cb9b6fc0a4")
 	)
 	(wire
 		(pts
@@ -3964,6 +4018,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 109.22) (xy 93.98 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63b533e4-e605-4c42-a8d1-b739fa8a246b")
+	)
+	(wire
+		(pts
 			(xy 16.51 127) (xy 16.51 128.27)
 		)
 		(stroke
@@ -4134,6 +4198,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 104.14) (xy 93.98 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fb71619-c53a-4e45-8a09-6b08dcf65680")
+	)
+	(wire
+		(pts
 			(xy 157.48 19.05) (xy 157.48 21.59)
 		)
 		(stroke
@@ -4231,6 +4305,16 @@
 			(type default)
 		)
 		(uuid "8ccac05c-c596-41e6-82aa-00037aa46bb9")
+	)
+	(wire
+		(pts
+			(xy 99.06 97.79) (xy 119.38 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93deadef-8ebc-4f73-9260-bd84e236c2a5")
 	)
 	(wire
 		(pts
@@ -4361,6 +4445,16 @@
 			(type default)
 		)
 		(uuid "ac830e70-a51c-4c17-856a-1e626adbbe42")
+	)
+	(wire
+		(pts
+			(xy 99.06 109.22) (xy 99.06 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba22e52d-5bac-4dd9-bb1d-6d1d0f95ab7f")
 	)
 	(wire
 		(pts
@@ -4504,6 +4598,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 104.14) (xy 99.06 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d304fd0b-f1d3-4905-9e29-9004e0effc31")
+	)
+	(wire
+		(pts
 			(xy 21.59 48.26) (xy 21.59 46.99)
 		)
 		(stroke
@@ -4614,6 +4718,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 93.98) (xy 119.38 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e80b5d19-e7ff-45e3-9d11-00a1efbc04a8")
+	)
+	(wire
+		(pts
 			(xy 62.23 55.88) (xy 68.58 55.88)
 		)
 		(stroke
@@ -4714,6 +4828,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 104.14) (xy 99.06 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffd60134-c1f4-4a8e-b787-b9ce37fd0034")
+	)
+	(wire
+		(pts
 			(xy 53.34 87.63) (xy 62.23 87.63)
 		)
 		(stroke
@@ -4801,6 +4925,26 @@
 			(justify right bottom)
 		)
 		(uuid "2a5551b0-47b7-4996-b8c7-42c0e89fc573")
+	)
+	(label "JOY_BTN1"
+		(at 80.01 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ee81175-a3e0-41ef-8e03-f9a7ba69c61e")
+	)
+	(label "JOY_DOWN"
+		(at 80.01 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "304e7f26-0b79-4650-b25b-2255066b5a04")
 	)
 	(label "JOY_DOWN"
 		(at 196.85 82.55 0)
@@ -4932,6 +5076,16 @@
 		)
 		(uuid "92507892-1a0d-43a6-8a75-9b099b59bfb2")
 	)
+	(label "JOY_BTN2"
+		(at 101.6 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "959e438a-e54a-457f-afea-b47e2d56d58c")
+	)
 	(label "UART_RX"
 		(at 205.74 36.83 180)
 		(effects
@@ -5011,6 +5165,16 @@
 			(justify left bottom)
 		)
 		(uuid "cb697aa7-cb82-434c-a483-b45a2e9ea519")
+	)
+	(label "JOY_UP"
+		(at 80.01 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce518445-accf-43dd-84b8-5f8a510960b8")
 	)
 	(label "EN"
 		(at 105.41 33.02 0)
@@ -5786,6 +5950,85 @@
 			(project "Capstone Transmitter"
 				(path "/c6281f45-9be9-4db0-bb6a-14da59dc6c3d"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 96.52 109.22 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "153b9f47-e2b0-4222-be7f-0cd883f98e44")
+		(property "Reference" "R10"
+			(at 96.52 105.664 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 96.52 107.442 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 96.52 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1e7d7f37-0b2d-4cef-808d-00a2e7c35339")
+		)
+		(pin "1"
+			(uuid "2e230d73-3bf1-4a3b-b3fb-012f5820170b")
+		)
+		(instances
+			(project "Capstone Transmitter"
+				(path "/c6281f45-9be9-4db0-bb6a-14da59dc6c3d"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -7153,6 +7396,85 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
+		(at 96.52 114.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "627b6b42-7f65-47c1-8cf9-66ffe49b34cd")
+		(property "Reference" "R9"
+			(at 96.52 110.744 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 96.52 112.522 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 96.52 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4d41ffda-f8cf-4bc8-94a5-add19bb801c4")
+		)
+		(pin "1"
+			(uuid "9fcffdd6-18ec-497c-98c7-8d7a8eb61224")
+		)
+		(instances
+			(project "Capstone Transmitter"
+				(path "/c6281f45-9be9-4db0-bb6a-14da59dc6c3d"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
 		(at 97.79 87.63 90)
 		(unit 1)
 		(body_style 1)
@@ -7465,6 +7787,85 @@
 			(project "Capstone Transmitter"
 				(path "/c6281f45-9be9-4db0-bb6a-14da59dc6c3d"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 96.52 104.14 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "771fd7d1-e172-42ff-8aab-1c5c80f57b84")
+		(property "Reference" "R11"
+			(at 96.52 100.584 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 96.52 102.362 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 96.52 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b059e3f6-a843-4c9f-88f6-c097f97f4e03")
+		)
+		(pin "1"
+			(uuid "386e9801-468b-4037-818c-75212806d33b")
+		)
+		(instances
+			(project "Capstone Transmitter"
+				(path "/c6281f45-9be9-4db0-bb6a-14da59dc6c3d"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -8406,7 +8807,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a574b439-b852-47cf-9898-67b89cc7a225")
 		(property "Reference" "J1"
 			(at 69.85 87.6299 0)
@@ -8420,7 +8820,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 69.85 90.1699 0)
+			(at 58.42 95.504 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8479,6 +8879,85 @@
 			(project "Capstone Transmitter"
 				(path "/c6281f45-9be9-4db0-bb6a-14da59dc6c3d"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 116.84 104.14 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b419aa65-b46e-478a-9c34-7b04a317deca")
+		(property "Reference" "R12"
+			(at 116.84 100.584 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 116.84 102.362 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 116.84 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3dacd666-19ff-47d1-9f68-781ca995bbe7")
+		)
+		(pin "1"
+			(uuid "c6282602-9bac-4d42-807a-3b4b07904d73")
+		)
+		(instances
+			(project "Capstone Transmitter"
+				(path "/c6281f45-9be9-4db0-bb6a-14da59dc6c3d"
+					(reference "R12")
 					(unit 1)
 				)
 			)
