@@ -10060,6 +10060,88 @@
 		(uuid "f574db3b-5c1a-456a-8c88-ccaead2c2c39")
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 165.1 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c6ebd4f-7fa0-45d2-9b7e-e6a4bae02c23")
+		(property "Reference" "C20"
+			(at 167.64 177.8062 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 167.64 180.3462 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 165.1 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 165.1 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36c420a0-229e-41b9-b280-d26fb258ed91")
+		)
+		(pin "2"
+			(uuid "b2922ae1-3876-474a-8628-af0d87425ab1")
+		)
+		(instances
+			(project "CapstoneReciever"
+				(path "/42a8ff87-24fb-42f5-a20d-20469faac78a"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 21.59 101.6 0)
 		(unit 1)
@@ -13934,88 +14016,6 @@
 			(project "CapstoneReciever"
 				(path "/42a8ff87-24fb-42f5-a20d-20469faac78a"
 					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_Small_US")
-		(at 165.1 179.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "858d7f08-28b9-4d36-b365-a9dc1eb50594")
-		(property "Reference" "C20"
-			(at 167.64 177.3681 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 167.64 179.9081 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 165.1 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, small US symbol"
-			(at 165.1 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e67b2fbc-8b89-4efc-8d80-ac594efb4056")
-		)
-		(pin "1"
-			(uuid "b7a6940f-f192-471b-8b9e-e69e0920e8d4")
-		)
-		(instances
-			(project "CapstoneReciever"
-				(path "/42a8ff87-24fb-42f5-a20d-20469faac78a"
-					(reference "C20")
 					(unit 1)
 				)
 			)
