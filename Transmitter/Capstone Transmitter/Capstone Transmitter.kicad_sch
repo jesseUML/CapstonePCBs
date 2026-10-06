@@ -7584,7 +7584,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DMP3099L"
+		(property "Value" "DMP2035U"
 			(at 22.86 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
