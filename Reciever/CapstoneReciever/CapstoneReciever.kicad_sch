@@ -969,6 +969,184 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_Small_0_1"
+				(rectangle
+					(start -1.524 0.6858)
+					(end 1.524 0.3048)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.524 -0.3048)
+					(end 1.524 -0.6858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.524) (xy -0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.8542)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.8542)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -3612,6 +3790,30 @@
 		(uuid "710c8970-1b06-4866-b6f7-85c0c427044c")
 	)
 	(rectangle
+		(start 97.79 82.55)
+		(end 135.255 106.045)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "823fab49-fc77-49e4-b726-96277a939bba")
+	)
+	(rectangle
+		(start 97.79 62.865)
+		(end 135.255 82.55)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f864033d-5377-4e82-a96b-e6b8eec1baae")
+	)
+	(rectangle
 		(start 12.065 12.065)
 		(end 97.79 106.045)
 		(stroke
@@ -3676,6 +3878,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6bc63a66-5ffa-4652-8a89-39270d621103")
+	)
+	(junction
+		(at 113.03 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c586448-0b65-4191-aad1-249e83ff2dd3")
 	)
 	(junction
 		(at 160.02 92.71)
@@ -3750,6 +3958,12 @@
 		(uuid "de4bbdf9-c26d-4c12-bade-17453590e1ab")
 	)
 	(junction
+		(at 106.68 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee21628e-cfd4-4fa2-ba63-dc77d1556597")
+	)
+	(junction
 		(at 170.18 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3762,20 +3976,8 @@
 		(uuid "f8f48a4c-5667-4dc0-8469-95c845ba0128")
 	)
 	(no_connect
-		(at 71.12 68.58)
-		(uuid "0866075e-e90d-4e3e-93e8-449ed006229a")
-	)
-	(no_connect
-		(at 71.12 66.04)
-		(uuid "27e83e6a-25b2-498a-81ef-cf661064858e")
-	)
-	(no_connect
 		(at 40.64 38.1)
 		(uuid "5ab31390-58e6-45c3-94c5-e62c5c92a7c0")
-	)
-	(no_connect
-		(at 71.12 60.96)
-		(uuid "5f915a55-f499-40d2-8779-5b9c100ab18e")
 	)
 	(no_connect
 		(at 71.12 71.12)
@@ -3804,10 +4006,6 @@
 	(no_connect
 		(at 71.12 88.9)
 		(uuid "d3a953aa-21a2-4c0b-bcb9-3d85b8b25342")
-	)
-	(no_connect
-		(at 71.12 63.5)
-		(uuid "d4165b83-0725-44c2-b6e9-f2a89677fa05")
 	)
 	(no_connect
 		(at 40.64 35.56)
@@ -3895,6 +4093,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 60.96) (xy 71.12 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13209fe1-bb53-4957-baa7-20f016fe8fa9")
+	)
+	(wire
+		(pts
 			(xy 228.6 34.29) (xy 228.6 35.56)
 		)
 		(stroke
@@ -3902,6 +4110,16 @@
 			(type default)
 		)
 		(uuid "144a6bec-5376-4ec3-9a8e-99e82ba135e7")
+	)
+	(wire
+		(pts
+			(xy 81.28 66.04) (xy 71.12 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17e49fa7-ec97-4224-a4f8-0be2f9fd1532")
 	)
 	(wire
 		(pts
@@ -3922,6 +4140,16 @@
 			(type default)
 		)
 		(uuid "1df81653-bd9a-4abb-beab-6c9c87e0a0f8")
+	)
+	(wire
+		(pts
+			(xy 104.14 69.85) (xy 119.38 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e5d9c4d-2210-41e4-b3af-7d50923358f8")
 	)
 	(wire
 		(pts
@@ -4085,6 +4313,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 90.17) (xy 115.57 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b3e309e-c14a-46af-8f97-0260c0f8310b")
+	)
+	(wire
+		(pts
 			(xy 227.33 82.55) (xy 231.14 82.55)
 		)
 		(stroke
@@ -4182,6 +4420,16 @@
 			(type default)
 		)
 		(uuid "4c8021fe-385e-4027-af31-db6a43aa2515")
+	)
+	(wire
+		(pts
+			(xy 81.28 63.5) (xy 71.12 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e164654-4b77-4611-a5f0-8568616a19fb")
 	)
 	(wire
 		(pts
@@ -4325,6 +4573,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 76.2) (xy 119.38 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fe994e8-340c-494c-b37b-0ce18044ac6a")
+	)
+	(wire
+		(pts
 			(xy 44.45 120.65) (xy 43.18 120.65)
 		)
 		(stroke
@@ -4382,6 +4640,16 @@
 			(type default)
 		)
 		(uuid "78315992-0321-4273-b97a-5fa7b070a916")
+	)
+	(wire
+		(pts
+			(xy 104.14 68.58) (xy 104.14 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "792a12b3-c5ed-44e9-8dc9-a3a75a13becb")
 	)
 	(wire
 		(pts
@@ -4485,6 +4753,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 76.2) (xy 113.03 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89e28af6-30e1-49ce-8295-d37e28109bdd")
+	)
+	(wire
+		(pts
 			(xy 31.75 20.32) (xy 31.75 22.86)
 		)
 		(stroke
@@ -4545,6 +4823,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 96.52) (xy 115.57 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92c04ffa-b924-4cda-9f44-309e234e7b45")
+	)
+	(wire
+		(pts
 			(xy 220.98 85.09) (xy 227.33 85.09)
 		)
 		(stroke
@@ -4552,6 +4840,16 @@
 			(type default)
 		)
 		(uuid "94c72f31-6d9c-494b-ab63-abcb903e3e09")
+	)
+	(wire
+		(pts
+			(xy 81.28 68.58) (xy 71.12 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9659c133-055b-4ec9-b41d-a0c598279319")
 	)
 	(wire
 		(pts
@@ -4775,6 +5073,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 69.85) (xy 119.38 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6fba584-7846-4917-8150-f0ffa78954ff")
+	)
+	(wire
+		(pts
 			(xy 31.75 30.48) (xy 40.64 30.48)
 		)
 		(stroke
@@ -4812,6 +5120,16 @@
 			(type default)
 		)
 		(uuid "ce25a44b-8375-48e6-b19c-cff8a13470c0")
+	)
+	(wire
+		(pts
+			(xy 105.41 92.71) (xy 115.57 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce70ae57-72d4-4c6f-b418-0c067cec69c6")
 	)
 	(wire
 		(pts
@@ -4872,6 +5190,16 @@
 			(type default)
 		)
 		(uuid "d5a92090-c4e5-4ded-b533-61b30cd59617")
+	)
+	(wire
+		(pts
+			(xy 105.41 99.06) (xy 115.57 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9516e73-4172-4963-a476-a8354fdcd4fd")
 	)
 	(wire
 		(pts
@@ -4995,6 +5323,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 69.85) (xy 106.68 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f66b09f8-e6cc-4e2a-9a0f-d97b7e83ba2c")
+	)
+	(wire
+		(pts
 			(xy 170.18 83.82) (xy 173.99 83.82)
 		)
 		(stroke
@@ -5002,6 +5340,16 @@
 			(type default)
 		)
 		(uuid "f97e167c-7ce6-4940-859b-023600c0cb93")
+	)
+	(wire
+		(pts
+			(xy 106.68 76.2) (xy 113.03 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f990274f-68b5-4245-91f6-6071414eb07c")
 	)
 	(wire
 		(pts
@@ -5063,6 +5411,26 @@
 		)
 		(uuid "080abf37-9102-4a28-967b-344f342c8dcb")
 	)
+	(label "EoT3"
+		(at 105.41 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09648ccd-e38f-4ead-96a2-8b8ed78c21b3")
+	)
+	(label "EoT1"
+		(at 81.28 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "13a0de1b-b672-4a22-8712-af66facac432")
+	)
 	(label "PWM{slash}D"
 		(at 78.74 58.42 180)
 		(effects
@@ -5072,6 +5440,16 @@
 			(justify right bottom)
 		)
 		(uuid "1ce87934-3597-48ef-83a9-d54501046f91")
+	)
+	(label "EoT4"
+		(at 81.28 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "291e2c1d-0b3f-4928-b2b4-48dfc574f181")
 	)
 	(label "Q6Gate"
 		(at 217.17 88.9 0)
@@ -5163,6 +5541,26 @@
 		)
 		(uuid "6e6e59da-8113-48d5-a291-b56afdf06a28")
 	)
+	(label "EoT4"
+		(at 105.41 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "712de24f-42b2-494e-b246-9cb251a3bbea")
+	)
+	(label "EoT3"
+		(at 81.28 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7687058e-d7d0-4a9b-a71e-ed88649063a2")
+	)
 	(label "Q5Source"
 		(at 228.6 49.53 0)
 		(effects
@@ -5243,6 +5641,16 @@
 		)
 		(uuid "97840631-3ca8-4877-a103-dd7332f00408")
 	)
+	(label "Eot2"
+		(at 105.41 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a284d5b7-8400-4732-9dd0-375e889fd9a3")
+	)
 	(label "Solenoid1Gate"
 		(at 137.16 40.64 0)
 		(effects
@@ -5272,6 +5680,26 @@
 			(justify left bottom)
 		)
 		(uuid "abcd9703-bd16-40c4-9883-330eb6e5d2f0")
+	)
+	(label "EoT2"
+		(at 81.28 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ac22583e-3cff-4a93-b7bd-3cb9d1b7c315")
+	)
+	(label "EoT1"
+		(at 105.41 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6136996-0c7e-41f8-9cfc-70be4e6c287a")
 	)
 	(label "JTAG_TDO"
 		(at 80.01 53.34 180)
@@ -5569,6 +5997,165 @@
 			(project "CapstoneReciever"
 				(path "/42a8ff87-24fb-42f5-a20d-20469faac78a"
 					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 104.14 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1f4f329a-b35d-44a7-b60a-5b08091e056d")
+		(property "Reference" "#PWR039"
+			(at 104.14 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 103.886 65.278 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 104.14 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "553574d9-6159-4ebf-b405-c0c96aafda54")
+		)
+		(instances
+			(project "CapstoneReciever"
+				(path "/42a8ff87-24fb-42f5-a20d-20469faac78a"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 120.65 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d0cec37-e458-423f-918a-25966893b634")
+		(property "Reference" "J9"
+			(at 123.19 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EoTSwitch"
+			(at 123.19 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_CUI:TerminalBlock_CUI_TB007-508-02_1x02_P5.08mm_Horizontal"
+			(at 120.65 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 120.65 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9fa5af63-07d6-45f0-ac01-973cc68de90b")
+		)
+		(pin "1"
+			(uuid "332d5e24-dfea-4452-86fe-7e2946119902")
+		)
+		(instances
+			(project "CapstoneReciever"
+				(path "/42a8ff87-24fb-42f5-a20d-20469faac78a"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -6047,6 +6634,88 @@
 			(project "CapstoneReciever"
 				(path "/42a8ff87-24fb-42f5-a20d-20469faac78a"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 119.38 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e5a8ab7-8f64-4e5d-b7ae-8df57d51fc26")
+		(property "Reference" "C2"
+			(at 121.92 71.8438 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000u"
+			(at 121.92 74.3838 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 119.38 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08877cb1-05e0-4157-8f4a-d3c8f64c7cca")
+		)
+		(pin "2"
+			(uuid "4634287f-192c-4cdf-85a6-4c200bf91eaa")
+		)
+		(instances
+			(project "CapstoneReciever"
+				(path "/42a8ff87-24fb-42f5-a20d-20469faac78a"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -8583,6 +9252,88 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
+		(at 120.65 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a21c2aa9-3156-4153-99c3-30118bf075b4")
+		(property "Reference" "J11"
+			(at 123.19 96.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EoTSwitch2"
+			(at 123.19 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_CUI:TerminalBlock_CUI_TB007-508-02_1x02_P5.08mm_Horizontal"
+			(at 120.65 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 120.65 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4b94a692-199b-4852-b050-ea6093d653d5")
+		)
+		(pin "1"
+			(uuid "87b7d9a2-6626-4869-84df-d0971ba4cabc")
+		)
+		(instances
+			(project "CapstoneReciever"
+				(path "/42a8ff87-24fb-42f5-a20d-20469faac78a"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
 		(at 237.49 29.21 0)
 		(unit 1)
 		(body_style 1)
@@ -8975,6 +9726,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 113.03 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b4278769-ae26-43bd-a830-c54339fbbf22")
+		(property "Reference" "#PWR042"
+			(at 113.03 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2dd87492-05b5-4af8-b718-c0de69ccfa94")
+		)
+		(instances
+			(project "CapstoneReciever"
+				(path "/42a8ff87-24fb-42f5-a20d-20469faac78a"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 227.33 19.05 0)
 		(unit 1)
@@ -9047,6 +9875,88 @@
 			(project "CapstoneReciever"
 				(path "/42a8ff87-24fb-42f5-a20d-20469faac78a"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 106.68 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bdf51d25-8bc1-4d94-924c-1a5f0e646b62")
+		(property "Reference" "C1"
+			(at 109.22 71.8438 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000u"
+			(at 109.22 74.3838 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 106.68 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab372778-44e7-47a1-aae9-6457383a2727")
+		)
+		(pin "2"
+			(uuid "a7710e45-ce38-4820-b8d3-4a8333b48bfa")
+		)
+		(instances
+			(project "CapstoneReciever"
+				(path "/42a8ff87-24fb-42f5-a20d-20469faac78a"
+					(reference "C1")
 					(unit 1)
 				)
 			)
