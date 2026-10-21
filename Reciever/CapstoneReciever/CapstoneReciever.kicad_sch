@@ -5641,7 +5641,7 @@
 		)
 		(uuid "97840631-3ca8-4877-a103-dd7332f00408")
 	)
-	(label "Eot2"
+	(label "EoT2"
 		(at 105.41 92.71 0)
 		(effects
 			(font
@@ -6673,7 +6673,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x14.3"
 			(at 119.38 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -9914,7 +9914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x14.3"
 			(at 106.68 73.66 0)
 			(hide yes)
 			(show_name no)
