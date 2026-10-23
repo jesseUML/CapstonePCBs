@@ -194,6 +194,164 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016)
@@ -3529,14 +3687,6 @@
 		(uuid "f8fc3ba7-71f8-41d5-ba45-a43051c1187c")
 	)
 	(no_connect
-		(at 196.85 54.61)
-		(uuid "09f6835e-24d9-46f8-b225-8f5d168465d9")
-	)
-	(no_connect
-		(at 196.85 62.23)
-		(uuid "38b0c661-9b3a-40a8-b4b4-c7ede3ba871a")
-	)
-	(no_connect
 		(at 196.85 69.85)
 		(uuid "3f9065d8-963c-47c2-a9cb-942c5ad45a70")
 	)
@@ -3547,14 +3697,6 @@
 	(no_connect
 		(at 196.85 41.91)
 		(uuid "728e6993-de05-4915-a696-36f76c925536")
-	)
-	(no_connect
-		(at 196.85 57.15)
-		(uuid "77dc521f-5f1a-46d9-88a9-4ff6c6175123")
-	)
-	(no_connect
-		(at 196.85 59.69)
-		(uuid "826af295-1c31-4271-a265-9d8e5dcb5982")
 	)
 	(no_connect
 		(at 166.37 34.29)
@@ -3739,6 +3881,16 @@
 			(type default)
 		)
 		(uuid "31623133-4013-4743-86a5-0c60c370b1d3")
+	)
+	(wire
+		(pts
+			(xy 252.73 16.51) (xy 261.62 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "321dd5a7-c755-426d-b52a-0806e555c6c0")
 	)
 	(wire
 		(pts
@@ -3942,6 +4094,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 27.94) (xy 248.92 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55b9ad2b-3e2f-44e5-9e85-43d818e23ffe")
+	)
+	(wire
+		(pts
 			(xy 105.41 27.94) (xy 115.57 27.94)
 		)
 		(stroke
@@ -3979,6 +4141,16 @@
 			(type default)
 		)
 		(uuid "5853f244-c333-4977-befa-1869b3f51583")
+	)
+	(wire
+		(pts
+			(xy 248.92 19.05) (xy 248.92 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58774e94-94c2-4811-ba25-d5ba4ccef5de")
 	)
 	(wire
 		(pts
@@ -4072,13 +4244,13 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 87.63) (xy 119.38 87.63)
+			(xy 248.92 35.56) (xy 261.62 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b4bcfed-1748-4897-b9f6-dcec12b5236e")
+		(uuid "6c4b9fd7-7e66-42ff-b597-1694cfa0a97e")
 	)
 	(wire
 		(pts
@@ -4332,6 +4504,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 19.05) (xy 261.62 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96656e58-0f4d-4eac-b449-0361ce9415c5")
+	)
+	(wire
+		(pts
 			(xy 58.42 105.41) (xy 49.53 105.41)
 		)
 		(stroke
@@ -4352,6 +4534,26 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 59.69) (xy 205.74 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99488771-2e50-489e-84b9-8031ffcb20b0")
+	)
+	(wire
+		(pts
+			(xy 196.85 62.23) (xy 205.74 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c82fe29-1011-4f9d-9fa1-89e4b0c0c365")
+	)
+	(wire
+		(pts
 			(xy 113.03 21.59) (xy 113.03 22.86)
 		)
 		(stroke
@@ -4359,6 +4561,26 @@
 			(type default)
 		)
 		(uuid "9c9c470d-dfbb-4aec-b8fe-d51d52745f00")
+	)
+	(wire
+		(pts
+			(xy 252.73 25.4) (xy 261.62 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f44a3e8-5ad8-4244-bde3-8f426e71df7c")
+	)
+	(wire
+		(pts
+			(xy 196.85 57.15) (xy 205.74 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a241940a-1511-41b9-b904-2585da2bce81")
 	)
 	(wire
 		(pts
@@ -4379,6 +4601,16 @@
 			(type default)
 		)
 		(uuid "a49e29c4-92c2-467c-a65f-e6bdb4caf076")
+	)
+	(wire
+		(pts
+			(xy 248.92 27.94) (xy 261.62 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a520d626-577b-4656-af31-bfe50bbc6565")
 	)
 	(wire
 		(pts
@@ -4462,6 +4694,26 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 44.45) (xy 248.92 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1c1a494-caec-4188-9958-1fa3bf89bf57")
+	)
+	(wire
+		(pts
+			(xy 196.85 54.61) (xy 205.74 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4766316-52cc-420f-8a43-bf2c9774652e")
+	)
+	(wire
+		(pts
 			(xy 99.06 109.22) (xy 99.06 114.3)
 		)
 		(stroke
@@ -4472,7 +4724,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 93.98) (xy 101.6 93.98)
+			(xy 100.33 93.98) (xy 119.38 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4519,6 +4771,16 @@
 			(type default)
 		)
 		(uuid "c406de4e-bac9-4f62-8d5b-6fa93b57eefc")
+	)
+	(wire
+		(pts
+			(xy 248.92 35.56) (xy 248.92 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6e1fe00-11fb-43c7-97d0-d83bae28d191")
 	)
 	(wire
 		(pts
@@ -4582,6 +4844,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 44.45) (xy 261.62 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccf3dc67-d0a2-465a-b57a-bd56ee1429e3")
+	)
+	(wire
+		(pts
 			(xy 30.48 27.94) (xy 30.48 31.75)
 		)
 		(stroke
@@ -4592,7 +4864,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 87.63) (xy 101.6 87.63)
+			(xy 100.33 87.63) (xy 119.38 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4642,16 +4914,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 93.98) (xy 119.38 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d50e04b6-e414-4186-856c-348684e5c66a")
-	)
-	(wire
-		(pts
 			(xy 53.34 90.17) (xy 62.23 90.17)
 		)
 		(stroke
@@ -4659,6 +4921,16 @@
 			(type default)
 		)
 		(uuid "d85a3354-5ff3-4f49-8853-85ac6194b819")
+	)
+	(wire
+		(pts
+			(xy 252.73 33.02) (xy 261.62 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9a1a5a4-b961-4a98-88ae-aa46565c672b")
 	)
 	(wire
 		(pts
@@ -4699,6 +4971,16 @@
 			(type default)
 		)
 		(uuid "e0afa1aa-04f2-4f75-875f-521159b3971b")
+	)
+	(wire
+		(pts
+			(xy 252.73 41.91) (xy 261.62 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e102eac5-9846-4c4b-bf2e-b97189ae3331")
 	)
 	(wire
 		(pts
@@ -4870,6 +5152,26 @@
 		)
 		(uuid "089db1b0-fece-4604-ac2d-1974b00c0c0d")
 	)
+	(label "EoTLED3"
+		(at 261.62 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0c0d4498-5d6a-49bb-be90-af2d824ddc35")
+	)
+	(label "EoTLED1"
+		(at 261.62 16.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0d1a8f95-9414-441f-9e55-bb4c399198a0")
+	)
 	(label "FB"
 		(at 24.13 62.23 0)
 		(effects
@@ -4889,6 +5191,16 @@
 			(justify left bottom)
 		)
 		(uuid "11b2af44-c2df-4629-8375-d9e1ff1d7ced")
+	)
+	(label "EoTLED4"
+		(at 261.62 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "12ce6459-a97d-4307-a9ed-221b7099a7ee")
 	)
 	(label "JTAG_TDI"
 		(at 205.74 44.45 180)
@@ -4919,6 +5231,16 @@
 			(justify left bottom)
 		)
 		(uuid "1ad69fc3-7d05-46d3-bcff-03b0bcaf7c95")
+	)
+	(label "EoTLED2"
+		(at 261.62 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "21a39f93-bc27-4f56-b1d7-9ae9583f3d59")
 	)
 	(label "UART_RX"
 		(at 62.23 90.17 180)
@@ -5010,6 +5332,16 @@
 		)
 		(uuid "4e876231-d467-4a0c-8d32-42c96f9b48be")
 	)
+	(label "EoTLED4"
+		(at 205.74 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "64055c36-2f07-4916-b687-0d056106df2f")
+	)
 	(label "L2"
 		(at 34.29 40.64 0)
 		(effects
@@ -5070,6 +5402,16 @@
 		)
 		(uuid "7fe913cc-c93b-491c-908d-27b9987a186e")
 	)
+	(label "EoTLED3"
+		(at 205.74 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "89f0e59a-1850-44f9-bc10-15d0243dbbd1")
+	)
 	(label "JTAG_TMS"
 		(at 205.74 49.53 180)
 		(effects
@@ -5089,6 +5431,16 @@
 			(justify left bottom)
 		)
 		(uuid "92507892-1a0d-43a6-8a75-9b099b59bfb2")
+	)
+	(label "EoTLED1"
+		(at 205.74 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9317fac3-e6dc-4a1b-8a08-9a9d8124465b")
 	)
 	(label "JOY_BTN2"
 		(at 101.6 104.14 0)
@@ -5139,6 +5491,16 @@
 			(justify left bottom)
 		)
 		(uuid "af88374b-e205-49f3-978e-69453c131ff0")
+	)
+	(label "EoTLED2"
+		(at 205.74 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b178607e-c5dc-47e1-b1c7-523e5bf54e96")
 	)
 	(label "JOY_X{slash}LEFT"
 		(at 82.55 87.63 0)
@@ -6236,7 +6598,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
+		(property "Value" "Down/Up"
 			(at 214.63 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6290,86 +6652,6 @@
 			(project "Capstone Transmitter"
 				(path "/c6281f45-9be9-4db0-bb6a-14da59dc6c3d"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Small_Open")
-		(at 104.14 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "20f8baee-4724-44dd-a494-27bfba94d8be")
-		(property "Reference" "JP2"
-			(at 104.14 85.344 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Pull up Jumper 1"
-			(at 104.14 85.344 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 104.14 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, small symbol, open"
-			(at 104.14 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cfea0226-c3b1-462d-b945-298a6267547a")
-		)
-		(pin "2"
-			(uuid "494d81c3-cade-45b8-ae37-e2894c09a457")
-		)
-		(instances
-			(project "Capstone Transmitter"
-				(path "/c6281f45-9be9-4db0-bb6a-14da59dc6c3d"
-					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -7170,6 +7452,198 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 266.7 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43d4c65a-7cec-46de-8ad5-999c01a495b3")
+		(property "Reference" "J11"
+			(at 269.24 33.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EoTSwitchOut3"
+			(at 269.24 35.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_CUI:TerminalBlock_CUI_TB007-508-02_1x02_P5.08mm_Horizontal"
+			(at 266.7 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 266.7 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 266.7 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 266.7 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 266.7 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a71cea25-2fa7-465d-90c6-c39f8b686b85")
+		)
+		(pin "1"
+			(uuid "7860f5d0-289c-4bf3-9a99-a409ddbdff67")
+		)
+		(instances
+			(project "Capstone Transmitter"
+				(path "/c6281f45-9be9-4db0-bb6a-14da59dc6c3d"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 248.92 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "47afca24-ee26-4587-81a7-c5406df815b5")
+		(property "Reference" "#PWR024"
+			(at 248.92 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 248.92 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 248.92 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1593d306-d89f-496e-b73b-f0acba7c0f9d")
+		)
+		(instances
+			(project "Capstone Transmitter"
+				(path "/c6281f45-9be9-4db0-bb6a-14da59dc6c3d"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 41.91 95.25 0)
 		(unit 1)
@@ -7482,86 +7956,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Small_Open")
-		(at 104.14 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "67ac9f86-f44e-49f3-8764-9239e43b193a")
-		(property "Reference" "JP3"
-			(at 104.14 91.186 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Pull up Jumper 2"
-			(at 104.14 91.694 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 104.14 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, small symbol, open"
-			(at 104.14 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8a2a419d-e340-4fad-8054-1bc763dbf733")
-		)
-		(pin "2"
-			(uuid "d775faee-9d61-4051-8d87-4b89a372ec85")
-		)
-		(instances
-			(project "Capstone Transmitter"
-				(path "/c6281f45-9be9-4db0-bb6a-14da59dc6c3d"
-					(reference "JP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:DMP3099L")
 		(at 29.21 92.71 180)
 		(unit 1)
@@ -7750,7 +8144,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
+		(property "Value" "Left/Right"
 			(at 214.63 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8221,6 +8615,236 @@
 			(project "Capstone Transmitter"
 				(path "/c6281f45-9be9-4db0-bb6a-14da59dc6c3d"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 266.7 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87f6525d-59bc-4537-9c3a-8399d449a97a")
+		(property "Reference" "J12"
+			(at 269.24 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EoTSwitchOut4"
+			(at 269.24 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_CUI:TerminalBlock_CUI_TB007-508-02_1x02_P5.08mm_Horizontal"
+			(at 266.7 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 266.7 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 266.7 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 266.7 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 266.7 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1a42380c-be7f-4b7b-bff1-63fc9d00debb")
+		)
+		(pin "1"
+			(uuid "8a33a759-a578-4d82-a28f-ee5c04804530")
+		)
+		(instances
+			(project "Capstone Transmitter"
+				(path "/c6281f45-9be9-4db0-bb6a-14da59dc6c3d"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 266.7 16.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89cd558e-d778-44a9-8049-8154cb8c0966")
+		(property "Reference" "J9"
+			(at 269.24 16.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EoTSwitchOut"
+			(at 269.24 19.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_CUI:TerminalBlock_CUI_TB007-508-02_1x02_P5.08mm_Horizontal"
+			(at 266.7 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 266.7 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 266.7 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 266.7 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 266.7 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2e0f7e6e-28b7-42f8-92d1-a7ca46bde107")
+		)
+		(pin "1"
+			(uuid "763e6f0b-35e1-4d0c-95a9-77f38d5b4634")
+		)
+		(instances
+			(project "Capstone Transmitter"
+				(path "/c6281f45-9be9-4db0-bb6a-14da59dc6c3d"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -8732,6 +9356,121 @@
 			(project "Capstone Transmitter"
 				(path "/c6281f45-9be9-4db0-bb6a-14da59dc6c3d"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 266.7 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "968509aa-48ee-49ac-8c50-dc10269e89e9")
+		(property "Reference" "J10"
+			(at 269.24 25.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EoTSwitchOut2"
+			(at 269.24 27.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_CUI:TerminalBlock_CUI_TB007-508-02_1x02_P5.08mm_Horizontal"
+			(at 266.7 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 266.7 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 266.7 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 266.7 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 266.7 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "99a760a2-fd83-41be-a218-cd5c12cffcf2")
+		)
+		(pin "1"
+			(uuid "4aeedd47-6423-4b1b-b0c5-806fe74bbc0f")
+		)
+		(instances
+			(project "Capstone Transmitter"
+				(path "/c6281f45-9be9-4db0-bb6a-14da59dc6c3d"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -9457,6 +10196,160 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 248.92 20.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d0ed47eb-925c-4ee7-8725-26d6583fe787")
+		(property "Reference" "#PWR027"
+			(at 248.92 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 248.92 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 248.92 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dc486e2b-6c00-4616-bf70-a72cb613e53d")
+		)
+		(instances
+			(project "Capstone Transmitter"
+				(path "/c6281f45-9be9-4db0-bb6a-14da59dc6c3d"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 248.92 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d234038c-5d12-45b5-a2ba-df6d03d5d614")
+		(property "Reference" "#PWR025"
+			(at 248.92 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 248.92 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 248.92 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eaf70aaf-39b4-43b4-ae8e-81aa2a167d78")
+		)
+		(instances
+			(project "Capstone Transmitter"
+				(path "/c6281f45-9be9-4db0-bb6a-14da59dc6c3d"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 157.48 36.83 0)
 		(unit 1)
 		(body_style 1)
@@ -9527,6 +10420,83 @@
 			(project "Capstone Transmitter"
 				(path "/c6281f45-9be9-4db0-bb6a-14da59dc6c3d"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 248.92 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d81f5d7c-d91f-4e8e-bb42-447cbad9602e")
+		(property "Reference" "#PWR026"
+			(at 248.92 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 248.92 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 248.92 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "faf9563c-ee3d-4b40-a040-ec316bd1f69a")
+		)
+		(instances
+			(project "Capstone Transmitter"
+				(path "/c6281f45-9be9-4db0-bb6a-14da59dc6c3d"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -10231,7 +11201,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
+		(property "Value" "Button1+2"
 			(at 214.63 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
