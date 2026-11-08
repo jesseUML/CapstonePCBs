@@ -547,11 +547,14 @@
   },
   "pcbnew": {
     "last_paths": {
+      "gencad": "",
       "idf": "",
       "netlist": "",
       "plot": "",
+      "pos_files": "",
       "specctra_dsn": "",
       "step": "CapstoneReciever.stl",
+      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
